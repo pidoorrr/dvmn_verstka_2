@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Remake Barber - Blog Details</title>
-  <link rel="icon" href="../media/favicon.png" type="image/png">
+  <link rel="icon" href="{% static 'favicon.png' %}" type="image/png">
 
   <link rel="stylesheet" href="{% static 'styles.min.css' %}">
 </head>
@@ -18,7 +18,7 @@
       <div class="container box_1620">
         <!-- Brand and toggle get grouped for better mobile display -->
         <a class="navbar-brand logo_h" href="{% url 'index' %}"><img
-          src="../media/logo.png" alt=""></a>
+          src="{% static 'logo.png' %}" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -88,10 +88,6 @@
                   <input name="b_36c4fd991d266f23781ded980_aefe40901a"
                          tabindex="-1" value="" type="text">
                 </div>
-
-                <!-- <div class="col-lg-4 col-md-4">
-                      <button class="bb-btn btn"><span class="lnr lnr-arrow-right"></span></button>
-                    </div>  -->
               </div>
               <div class="info"></div>
             </form>
@@ -137,7 +133,5 @@
 <!--================ End Footer Area =================-->
 
 <script src="{% static 'scripts.js' %}"></script>
-</body>
-</html>
 </body>
 </html>
